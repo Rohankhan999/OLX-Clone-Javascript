@@ -18,14 +18,14 @@ nav{
     margin-top: 10px;
 }
 .header > #car {
-    margin-left: 80px;   
+    margin-left: 40px;   
     margin-top: 22px; 
     border-radius: 50px;
     border:1px solid wheat;
     background-color: rgb(213, 200, 200);
 }
 .header > #Property {
-    margin-left: 80px;   
+    margin-left: 40px;   
     margin-top: 22px; 
     border-radius: 50px;
     border:1px solid wheat;
@@ -36,4 +36,17 @@ span{
     margin-left: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+}
+span:hover{
+ color: rgb(72, 72, 255)
+}
+#flush{
+    width:25%;
+    margin-left:120px;
+    margin-top: 30px;
+    border: 2px solid rgba(45, 35, 35, 0.484);
+    border-radius:5px;
+}
+#flushdiv{
+    display:flex;
 }
