@@ -2,6 +2,8 @@ body{
     width:1280px;
     height:auto;
     margin: auto;
+    
+
 }
 nav{
     width:1280px;
@@ -64,17 +66,18 @@ input{
 }
 #searchicon{
     position: absolute;
-    margin-top: 7px;
-    margin-left: 60px;
-    padding: 20px;
+    margin-top: 6px;
+    margin-left: 620px;
+    
 }
 #sell{
-    background-color: whitesmoke;
-    border:aquamarine 3px solid;
-     font-family: "Roboto", sans-serif;
-    width:100px;
-    border-radius: 10px;
-    margin-left: 20px;
-    font-weight: 600;
-    letter-spacing: 2px;
+    background:url(	https://olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
+    background-size: cover;
+    justify-content: center;
+    border: 0;
+    width:auto;
+     
+}
+nav{
+    position: fixed;
 }
