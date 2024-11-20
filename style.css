@@ -1,83 +1,138 @@
-body{
-    width:1280px;
-    height:auto;
+body {
+    width: 1280px;
+    height: auto;
     margin: auto;
-    
+
 
 }
-nav{
-    width:1280px;
+
+nav {
+    width: 1280px;
     height: auto;
     margin: auto;
 }
-.header{
-    width:1280px;
+
+.header {
+    width: 1280px;
     height: auto;
     background-color: white;
     display: flex;
 }
-.header > #logo {
+
+.header>#logo {
     margin-left: 100px;
     margin-top: 10px;
 }
-.header > #car {
-    margin-left: 40px;   
-    margin-top: 22px; 
+
+.header>#car {
+    margin-left: 40px;
+    margin-top: 22px;
     border-radius: 50px;
-    border:1px solid wheat;
+    border: 1px solid wheat;
     background-color: rgb(213, 200, 200);
 }
-.header > #Property {
-    margin-left: 40px;   
-    margin-top: 22px; 
+
+.header>#Property {
+    margin-left: 40px;
+    margin-top: 22px;
     border-radius: 50px;
-    border:1px solid wheat;
+    border: 1px solid wheat;
     background-color: rgb(213, 200, 200);
 }
-span{
+
+span {
     margin-top: 30px;
     margin-left: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
-span:hover{
- color: rgb(72, 72, 255)
+
+span:hover {
+    color: rgb(72, 72, 255)
 }
-.searchbar{
+
+.searchbar {
     display: flex;
     margin-left: 120px;
     margin-top: 20px;
 }
-select{
-    border:1px solid black;
+
+select {
+    border: 1px solid black;
     padding: 10px;
-    width:290px;
+    width: 290px;
     border-radius: 10px;
+    padding-left: 30px;
 }
-#search{
-    padding-top:10px;
+
+#search {
+    padding-top: 10px;
     padding-bottom: 10px;
-    border:1px solid black;
+    border: 3px solid #002F34;
     border-radius: 10px;
     margin-left: 10px;
 }
-input{
+
+input {
     padding-left: 20px;
 }
-#searchicon{
+
+#searchicon {
     position: absolute;
-    margin-top: 6px;
-    margin-left: 620px;
-    
+    margin-top: 5px;
+    margin-left: 630px;
+
 }
-#sell{
-    background:url(	https://olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
-    background-size: cover;
+
+#sell {
+    background: url(https://olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
+    background-size: contain;
     justify-content: center;
+    align-items: center;
     border: 0;
-    width:auto;
-     
+    width: 80px;
+    margin-left: 30px;
+    font-size: 15px;
 }
-nav{
-    position: fixed;
+
+#Login {
+    margin-top: 7px;
+    margin-left: 25px;
+    color: #002F34;
+}
+
+#p {
+    margin-left: 1px;
+}
+
+hr {
+    width: 1280px;
+    margin-top: 20px;
+}
+
+catogeries>ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #002F34;
+}
+
+#CATOGERIES {
+    border: 0;
+    width: 150px;
+    margin-top: 3px;
+    padding: 0px;
+    color: #002F34;
+    font-weight: 600;
+}
+
+select>option {
+    color: #002F34;
+    font-family: "Roboto", sans-serif;
+}
+#city{
+    border: #002F34 2px solid;
 }
