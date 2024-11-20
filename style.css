@@ -133,6 +133,36 @@ select>option {
     color: #002F34;
     font-family: "Roboto", sans-serif;
 }
-#city{
+
+#city {
     border: #002F34 2px solid;
+}
+
+slider {
+    width: 1280px;
+}
+
+feed {
+    width: 1280px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    color: #002F34;
+    font-weight: 600;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images > img{
+    margin-left: 70px;
+    margin-bottom: 70px;
+
+}
+a{
+    
 }
