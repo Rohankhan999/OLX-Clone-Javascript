@@ -2,8 +2,7 @@ body {
     width: 1280px;
     height: auto;
     margin: auto;
-
-
+    overflow-x: hidden;
 }
 
 nav {
@@ -86,13 +85,12 @@ input {
 
 #sell {
     background: url(https://olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
-    background-size: contain;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
     border: 0;
-    width: 80px;
+    width: 90px;
     margin-left: 30px;
     font-size: 15px;
+
 }
 
 #Login {
@@ -150,16 +148,60 @@ h2 {
     margin-top: 30px;
     margin-left: 40px;
     font-family: "Roboto", sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #002F34;
-    font-weight: 600;
+    font-weight: 900;
 }
-.images{
+
+.images {
     display: flex;
     flex-wrap: wrap;
 }
-.images > img{
-    margin-left: 70px;
-    margin-bottom: 70px;
 
+.row1,
+.row2 {
+    height: auto;
+}
+
+.row1>img {
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.row2>img {
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+a {
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-left: 70px;
+    width: auto;
+
+}
+
+#cardimg {
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cards {
+    width: 350px;
+    height: 380px;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+testimonials{
+    display: flex;
 }
