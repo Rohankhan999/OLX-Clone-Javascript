@@ -207,6 +207,7 @@ a {
 }
 testimonials{
     display: flex;
+    flex-wrap: wrap;
 }
 u{
     color: red;
