@@ -207,8 +207,16 @@ a {
 }
 testimonials{
     display: flex;
-    flex-wrap: wrap;
 }
 u{
     color: red;
+}
+testimonials2{
+    display: flex;
+}
+testimonials3{
+    display: flex;
+}
+@media screen and (max-width:230px) {
+   
 }
